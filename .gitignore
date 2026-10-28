@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-*/
+*.local
+
+# Logs and editor noise
+*.log
+.DS_Store
+.idea/
+.vscode/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Capacitor / Android generated artifacts
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json

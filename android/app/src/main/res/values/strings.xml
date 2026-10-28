@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Stackwise</string>
+    <string name="title_activity_main">Stackwise</string>
+    <string name="package_name">com.stackwise.app</string>
+    <string name="custom_url_scheme">com.stackwise.app</string>
+</resources>

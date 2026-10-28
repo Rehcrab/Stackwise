@@ -1,0 +1,27 @@
+{
+  "name": "stackwise",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Stack timer: build stacks of timed blocks and linked or detached group circuits.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "cap:sync": "npm run build && cap sync",
+    "cap:android": "npm run build && cap sync android && cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "idb": "^8.0.4",
+    "sortablejs": "^1.15.7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.0",
+    "@types/sortablejs": "^1.15.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
